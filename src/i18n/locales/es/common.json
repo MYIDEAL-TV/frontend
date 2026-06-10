@@ -1,0 +1,42 @@
+{
+  "navigation": {
+    "brand": "SubManager Pro",
+    "home": "Inicio",
+    "newSubscription": "Nueva Suscripción",
+    "legal": "Legal"
+  },
+  "buttons": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "back": "Atrás"
+  },
+  "languages": {
+    "english": "Inglés",
+    "french": "Francés",
+    "spanish": "Español"
+  },
+  "forms": {
+    "required": "Requerido",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Email",
+    "phone": "Teléfono",
+    "cellPhone": "Teléfono Móvil",
+    "landlinePhone": "Teléfono Fijo",
+    "companyName": "Nombre de la Empresa",
+    "accommodationName": "Nombre del Alojamiento",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "postalCode": "Código Postal",
+    "country": "País",
+    "validation": {
+      "required": "Este campo es obligatorio",
+      "email": "Por favor ingrese una dirección de email válida",
+      "minLength": "Debe tener al menos {{min}} caracteres",
+      "maxLength": "Debe tener menos de {{max}} caracteres"
+    }
+  }
+}

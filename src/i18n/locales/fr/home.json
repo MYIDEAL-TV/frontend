@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Gestion des Abonnements",
+    "subtitle": "En Toute Simplicité",
+    "description": "Rationalisez votre flux de travail d'abonnements avec notre plateforme de gestion professionnelle. De la configuration aux signatures, nous vous couvrons.",
+    "createNew": "Créer un Nouvel Abonnement",
+    "findExisting": "Trouver Existant"
+  },
+  "features": {
+    "title": "Pourquoi Choisir cet outil ?",
+    "items": [
+      {
+        "title": "Gestion Intelligente des Contrats",
+        "description": "Génération automatique de contrats et flux de signature numérique."
+      },
+      {
+        "title": "Conformité Prête",
+        "description": "Conformité légale intégrée pour les territoires caribéens et au-delà."
+      },
+      {
+        "title": "Support Multi-Lieux",
+        "description": "Gérez les abonnements dans différentes zones géographiques."
+      }
+    ]
+  },
+  "stats": {
+    "activeSubscriptions": "Abonnements Actifs",
+    "monthlyRevenue": "Revenus Mensuels",
+    "newCustomers": "Nouveaux Clients",
+    "retentionRate": "Taux de Rétention"
+  },
+  "quickActions": {
+    "title": "Actions Rapides",
+    "newSubscription": {
+      "title": "Nouvel Abonnement",
+      "description": "Créer un nouvel abonnement avec configuration de l'emplacement et des données démographiques"
+    },
+    "findSubscription": {
+      "title": "Trouver un Abonnement",
+      "description": "Rechercher et récupérer les informations d'abonnement existantes"
+    },
+    "analytics": {
+      "title": "Analytique",
+      "description": "Voir les analyses et les métriques de performance des abonnements"
+    },
+    "legalDocuments": {
+      "title": "Documents Légaux",
+      "description": "Accéder aux documents légaux, termes et politiques"
+    },
+    "getStarted": "Commencer"
+  },
+  "search": {
+    "title": "Trouver un Abonnement Existant",
+    "label": "ID d'Abonnement ou Email du Client",
+    "placeholder": "Entrez l'ID d'abonnement ou l'adresse email",
+    "button": "Rechercher un Abonnement"
+  },
+  "security": {
+    "title": "Sécurisé et Conforme",
+    "description": "Toutes les données d'abonnement sont cryptées et stockées en toute sécurité. Notre plateforme est conforme aux normes internationales de protection des données et aux réglementations de confidentialité."
+  }
+}

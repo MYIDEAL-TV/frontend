@@ -1,0 +1,42 @@
+{
+  "navigation": {
+    "brand": "Interface Signature Digitale",
+    "home": "Accueil",
+    "newSubscription": "Nouvel Abonnement",
+    "legal": "Légal"
+  },
+  "buttons": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "back": "Retour"
+  },
+  "languages": {
+    "english": "Anglais",
+    "french": "Français",
+    "spanish": "Espagnol"
+  },
+  "forms": {
+    "required": "Requis",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "cellPhone": "Téléphone Portable",
+    "landlinePhone": "Téléphone Fixe",
+    "companyName": "Dénomination sociale",
+    "accommodationName": "Nom de l'Hébergement",
+    "address": "Adresse",
+    "city": "Ville",
+    "postalCode": "Code Postal",
+    "country": "Pays",
+    "validation": {
+      "required": "Ce champ est obligatoire",
+      "email": "Veuillez entrer une adresse email valide",
+      "minLength": "Doit contenir au moins {{min}} caractères",
+      "maxLength": "Doit contenir moins de {{max}} caractères"
+    }
+  }
+}

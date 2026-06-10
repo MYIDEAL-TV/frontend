@@ -1,0 +1,65 @@
+{
+  "title": "Contract Signature",
+  "description": "Complete your contract signature using SignNow",
+  "backButton": "Back to Subscription",
+  "loading": {
+    "title": "Preparing Your Contract",
+    "description": "Connecting to SignNow and generating your contract..."
+  },
+  "success": {
+    "title": "Contract Ready",
+    "description": "Your contract has been prepared via SignNow.",
+    "alert": "Your contract has been prepared and is ready for signature. Please check your email for signing instructions."
+  },
+  "processing": {
+    "title": "Contract Processing",
+    "description": "Your contract has been sent. You'll receive an email with signing instructions."
+  },
+  "error": {
+    "noData": {
+      "title": "No Data Found",
+      "description": "Please complete the subscription form first."
+    },
+    "integration": {
+      "title": "Integration Error",
+      "description": "Unable to connect to SignNow. Please try again later."
+    },
+    "failed": "Failed to initialize SignNow integration. Please try again."
+  },
+  "buttons": {
+    "openNewTab": "Open in New Tab",
+    "returnDashboard": "Return to Dashboard",
+    "reloadPage": "Reload Page"
+  },
+  "interface": {
+    "title": "Contract Signature Interface",
+    "description": "Complete the signature process below. If you experience any issues, try opening in a new tab.",
+    "unableToLoad": "Unable to load SignNow interface"
+  },
+  "approver": {
+    "title": "Approver Review Mode",
+    "reviewAs": "Reviewing as: {{name}} ({{email}})"
+  },
+  "summary": {
+    "title": "Subscription Summary",
+    "customer": "Customer",
+    "location": "Location",
+    "plan": "Plan"
+  },
+  "bridge": {
+    "redirecting": "Redirecting to confirmation page..."
+  },
+  "debug": {
+    "title": "API Debug Results",
+    "endpoint": "Endpoint",
+    "attributePath": "Attribute Path",
+    "original": "Original Payload",
+    "modified": "Modified Payload",
+    "success": "Success",
+    "error": "Error",
+    "copyOriginal": "Copy Original",
+    "copyModified": "Copy Modified",
+    "copied": "Copied!",
+    "close": "Close"
+  }
+}

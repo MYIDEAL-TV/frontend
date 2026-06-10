@@ -1,0 +1,13 @@
+project_id = "gwpmtmirsotweatuyvqo"
+
+[functions.signnow-contract]
+verify_jwt = false
+
+[functions.signnow-essentials]
+verify_jwt = false
+
+[functions.update-signnow-brand]
+verify_jwt = false
+
+[functions.signnow-webhook]
+verify_jwt = false

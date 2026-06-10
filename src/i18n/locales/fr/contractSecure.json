@@ -1,0 +1,25 @@
+{
+  "title": "Livraison Sécurisée du Contrat",
+  "loading": {
+    "message": "Envoi de l'invitation de contrat sécurisée...",
+    "title": "Préparation de Votre Contrat",
+    "description": "Connexion à SignNow et génération de votre contrat..."
+  },
+  "success": {
+    "title": "Invitation de contrat envoyée avec succès !",
+    "signingLinkTitle": "Lien de Signature Généré",
+    "description": "Un lien de signature sécurisé a été généré pour :",
+    "instructionsDescription": "Vous pouvez copier le lien ci-dessous et l'envoyer par email, SMS ou votre plateforme de messagerie préférée.",
+    "documentIdLabel": "ID du Document",
+    "signingLinkLabel": "Lien de Signature"
+  },
+  "error": {
+    "staffProfile": "Impossible de trouver le profil du personnel. Veuillez vous assurer que vous êtes connecté en tant que membre du personnel."
+  },
+  "buttons": {
+    "resend": "Renvoyer l'Invitation",
+    "returnDashboard": "Retour au Tableau de Bord",
+    "tryAgain": "Réessayer",
+    "goBack": "Retour"
+  }
+}

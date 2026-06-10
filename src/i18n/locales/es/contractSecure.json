@@ -1,0 +1,25 @@
+{
+  "title": "Entrega Segura del Contrato",
+  "loading": {
+    "message": "Enviando invitación de contrato segura...",
+    "title": "Preparando Su Contrato",
+    "description": "Conectando a SignNow y generando su contrato..."
+  },
+  "success": {
+    "title": "¡Invitación de contrato enviada con éxito!",
+    "signingLinkTitle": "Enlace de Firma Generado",
+    "description": "Se ha generado un enlace de firma seguro para:",
+    "instructionsDescription": "Puede copiar el enlace a continuación y enviarlo por email, SMS o su plataforma de mensajería preferida.",
+    "documentIdLabel": "ID del Documento",
+    "signingLinkLabel": "Enlace de Firma"
+  },
+  "error": {
+    "staffProfile": "No se puede encontrar el perfil del personal. Asegúrese de haber iniciado sesión como miembro del personal."
+  },
+  "buttons": {
+    "resend": "Reenviar Invitación",
+    "returnDashboard": "Volver al Panel",
+    "tryAgain": "Intentar de Nuevo",
+    "goBack": "Volver"
+  }
+}

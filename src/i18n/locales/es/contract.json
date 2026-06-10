@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "title": "Resumen del Contrato",
+    "description": "Revise los detalles de su suscripción y firme el contrato",
+    "backButton": "Volver a Suscripción"
+  },
+  "details": {
+    "subscriptionTitle": "Detalles de la Suscripción",
+    "serviceLocation": "Ubicación del Servicio",
+    "subscriber": "Suscriptor",
+    "planPricing": "Plan y Precios",
+    "plan": "Plan",
+    "addon": "Complemento",
+    "additionalScreens": "Pantalla(s) Adicional(es)",
+    "totalMonthly": "Total Mensual"
+  },
+  "terms": {
+    "title": "Términos del Contrato",
+    "introduction": "Este Contrato es celebrado por el Cliente con IDEAL TV, una entidad de derecho francés, una sociedad anónima simplificada registrada en el Registro Mercantil y de Sociedades de Basse-Terre (Guadalupe) bajo el número 840 102 164.",
+    "compositionTitle": "El contrato se compone de:",
+    "subscriptionForm": "el presente Formulario de Suscripción,",
+    "generalConditions": "las Condiciones Generales de Suscripción,",
+    "privacyPolicy": "la Política de Privacidad,",
+    "contractSummary": "el Resumen del Contrato y",
+    "standardizedSheet": "la Hoja de Información Estandarizada asociada"
+  },
+  "signature": {
+    "title": "Firma Digital",
+    "description": "Firme abajo para completar su contrato de suscripción",
+    "clear": "Limpiar",
+    "complete": "Completar Contrato",
+    "agreement": "Con esta firma, certifico que tengo la capacidad necesaria para celebrar y ejecutar el Contrato. Reconozco los términos del contrato y confirmo que he leído el contrato y acepto sus términos."
+  },
+  "messages": {
+    "noData": {
+      "title": "No se Encontraron Datos",
+      "description": "Por favor complete el formulario de suscripción primero."
+    },
+    "signatureRequired": {
+      "title": "Firma Requerida",
+      "description": "Por favor proporcione su firma para completar el contrato."
+    },
+    "contractCompleted": {
+      "title": "Contrato Completado",
+      "description": "¡Su contrato de suscripción ha sido firmado exitosamente!"
+    }
+  },
+  "plans": {
+    "Basic": "Básico",
+    "Full": "Completo"
+  },
+  "addons": {
+    "Family": "Familia",
+    "Sport": "Deporte",
+    "Cinema": "Cine",
+    "Kids": "Niños"
+  },
+  "integration": {
+    "title": "Integración PDF del Contrato",
+    "description": "Integración con servicios externos de llenado y firma de PDF."
+  }
+}

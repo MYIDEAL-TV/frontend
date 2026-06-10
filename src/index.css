@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional subscription management design system */
+
+@layer base {
+  :root {
+    /* Dark background theme like myidealtv.com */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Orange primary color (#FF6A13 - myidealtv.com accent) - PRODUCTION_SCHEME */
+    --primary: 18 100% 54%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 18 100% 60%;
+
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 85%;
+
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 18 100% 54%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 18 100% 54%;
+
+    /* Orange gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(18 100% 54%) 0%, hsl(18 100% 60%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 12%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 7%) 0%, hsl(0 0% 10%) 50%, hsl(0 0% 15%) 100%);
+    
+    /* Dark shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.3);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.3), 0 2px 4px -2px hsl(0 0% 0% / 0.3);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -4px hsl(0 0% 0% / 0.3);
+    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.3), 0 8px 10px -6px hsl(0 0% 0% / 0.3);
+
+    /* Smooth transitions */
+    --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 18 100% 54%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 18 100% 54%;
+  }
+
+  /* TEST_SCHEME - Blue color variant */
+  .test-scheme {
+    /* Blue primary color - TEST_SCHEME */
+    --primary: 217 91% 54%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 217 91% 60%;
+
+    --accent: 217 91% 54%;
+    --accent-foreground: 0 0% 98%;
+
+    --ring: 217 91% 54%;
+
+    /* Blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 54%) 0%, hsl(217 91% 60%) 100%);
+
+    --sidebar-primary: 217 91% 54%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-ring: 217 91% 54%;
+  }
+
+  .dark {
+    /* Even darker theme for dark mode toggle */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 18 100% 54%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 18 100% 60%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 85%;
+
+    --muted: 0 0% 8%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 18 100% 54%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 18 100% 54%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(18 100% 54%) 0%, hsl(18 100% 60%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(0 0% 7%) 0%, hsl(0 0% 8%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(0 0% 7%) 50%, hsl(0 0% 12%) 100%);
+
+    /* Dark mode shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.5);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.5), 0 2px 4px -2px hsl(0 0% 0% / 0.5);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.5), 0 4px 6px -4px hsl(0 0% 0% / 0.5);
+    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.5), 0 8px 10px -6px hsl(0 0% 0% / 0.5);
+    --sidebar-background: 0 0% 7%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 18 100% 54%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 18 100% 54%;
+  }
+
+  /* TEST_SCHEME - Blue color variant for dark mode */
+  .dark.test-scheme {
+    --primary: 217 91% 54%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 217 91% 60%;
+
+    --accent: 217 91% 54%;
+    --accent-foreground: 0 0% 98%;
+
+    --ring: 217 91% 54%;
+
+    /* Blue gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 54%) 0%, hsl(217 91% 60%) 100%);
+
+    --sidebar-primary: 217 91% 54%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-ring: 217 91% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Form styling */
+  .form-section {
+    @apply bg-card border border-border rounded-lg p-6 shadow-sm;
+  }
+
+  .form-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+  }
+
+  /* Professional button styles */
+  .btn-professional {
+    @apply bg-gradient-to-r from-primary to-primary-hover text-primary-foreground px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg hover:scale-105;
+  }
+
+  /* Hero section */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  /* Card enhancements */
+  .card-professional {
+    @apply bg-card border border-border rounded-xl shadow-md hover:shadow-lg transition-all duration-200;
+  }
+}
+
+/* Add this to your src/index.css or App.css */
+
+/* Forces the select dropdown list to be dark with white text */
+.PhoneInputCountrySelect {
+  background-color: #0f172a !important; /* slate-900 */
+  color: white !important;
+  border-radius: 4px;
+}
+
+/* Forces the individual items in the list to be visible */
+.PhoneInputCountrySelect option {
+  background-color: #0f172a !important;
+  color: white !important;
+}
+
+/* Container styling to match your Shadcn Input height
+.PhoneInputCountry {
+  border: 1px solid hsl(var(--input));
+  border-radius: var(--radius);
+  padding-left: 8px;
+  background-color: hsl(var(--background));
+  height: 40px;
+} */

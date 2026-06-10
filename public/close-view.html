@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Closing...</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+</head>
+<body>
+    <script>
+        // 1. Kill the SignNow engine immediately
+        window.stop();
+
+        // 2. Send the signal to the React parent
+        if (window.parent) {
+            window.parent.postMessage({ type: "SIGNNOW_CLOSE_VIEW" }, "*");
+        }
+
+        // 3. Absolute dead-end for the iframe
+        window.location.replace("about:blank");
+    </script>
+</body>
+</html>

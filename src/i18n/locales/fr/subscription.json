@@ -1,0 +1,336 @@
+{
+  "title": "Nouvel Abonnement",
+  "steps": {
+    "location": {
+      "title": "Emplacement",
+      "description": "Lieu de service",
+      "instruction": "Choisissez l'emplacement et le type de contrat ci-dessous"
+    },
+    "subscription": { "title": "Abonnement", "description": "Sélection du plan" },
+    "hardwareFees": { "title": "Matériel et Frais", "description": "Services et équipement" },
+    "demographics": { "title": "Démographie", "description": "Informations personnelles" },
+    "signature": { "title": "Signature", "description": "Finalisation du contrat" }
+  },
+  "progress": {
+    "step": "Étape {{current}} sur {{total}}",
+    "loadingStaff": "Chargement du profil du personnel..."
+  },
+  "validation": {
+    "locationRequired": {
+      "title": "Emplacement requis",
+      "description": "Veuillez sélectionner un emplacement de service pour continuer."
+    },
+    "planRequired": {
+      "title": "Sélection du plan requise",
+      "description": "Veuillez sélectionner un plan d'abonnement pour continuer."
+    },
+    "invalidPlan": {
+      "title": "Sélection du plan invalide",
+      "description": "Le plan sélectionné n'est pas disponible pour {{location}}."
+    },
+    "invalidAddons": {
+      "title": "Sélection d'options invalide",
+      "description": "Certaines options sélectionnées ne sont pas disponibles pour {{location}}."
+    },
+    "priceRequired": { "title": "Prix requis", "description": "Veuillez entrer un prix pour l'article personnalisé." },
+    "itemNameRequired": {
+      "title": "Nom de l'article requis",
+      "description": "Veuillez entrer un nom pour l'article personnalisé."
+    },
+    "requiredInfo": {
+      "title": "Informations requises manquantes",
+      "description": "Veuillez remplir tous les champs requis pour le propriétaire/locataire."
+    },
+    "financialManagerRequired": {
+      "title": "Informations requises manquantes",
+      "description": "Veuillez fournir toutes les informations requises du Responsable Financier pour les contrats professionnels."
+    },
+    "staffRequired": {
+      "title": "Profil du personnel requis",
+      "description": "Impossible de créer l'abonnement. Veuillez contacter l'administrateur."
+    }
+  },
+  "techServices": {
+    "title": "Services Techniques (Optionnel)",
+    "description": "Sélectionner les services techniques et les coûts associés",
+    "connectionFee": "Frais de mise en service",
+    "installFee": "Frais d'Installation",
+    "addNote": "Ajouter des notes ou des instructions spéciales..."
+  },
+  "hardware": {
+    "title": "Matériel (Optionnel)",
+    "description": "Sélectionner les articles matériels et les coûts associés",
+    "instruction": "Dans cette section choisissez le matériel optionnel et les autres services à payer à la souscription",
+    "decoder": "Décodeur",
+    "rentalSelected": "(Location sélectionnée à l'étape précédente)",
+    "satelliteDish": "Antenne Satellite",
+    "other": "Autre Équipement",
+    "other2": "Autre Équipement #2",
+    "otherDescription": "Description du matériel",
+    "addNote": "Ajouter des notes ou des instructions spéciales..."
+  },
+  "additionalInfo": {
+    "title": "Informations Complémentaires (Optionnel)",
+    "description": "Toute autre information à inclure dans le contrat",
+    "label": "Autres Informations",
+    "itemDescription": "Article Supplémentaire",
+    "itemDescriptionPlaceholder": "Entrez la description de l'article supplémentaire",
+    "itemCost": "Coût de l'Article Supplémentaire",
+    "placeholder": "Entrez toute information supplémentaire ici...",
+    "note": "Ces informations seront incluses dans la documentation du contrat."
+  },
+  "legalPackage": {
+    "title": "Veuillez inclure le paquet légal",
+    "description": "Ajouter des conditions générales complètes spécifiques à votre emplacement et type de contrat"
+  },
+  "sepaMandate": {
+    "title": "Ajouter Mandat SEPA",
+    "description": "Inclure un mandat de prélèvement SEPA au contrat"
+  },
+  "paymentAuthorization": {
+    "title": "Autorisation de Paiement",
+    "none": "Aucune autorisation de paiement supplémentaire",
+    "sepa": "Ajouter Mandat SEPA",
+    "ccAuth": "Ajouter Autorisation Carte Bancaire",
+    "ccAuthDescription": "Inclure un formulaire d'autorisation de carte bancaire au contrat"
+  },
+  "sepaStep": {
+    "title": "Mandat SEPA",
+    "description": "Informations de prélèvement automatique",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "companyName": "Dénomination sociale",
+      "address": "Adresse",
+      "iban": "CODE IBAN",
+      "bic": "CODE BIC",
+      "paymentRecurrent": "Paiement Récurrent",
+      "paymentPonctuel": "Paiement Ponctuel",
+      "rum": "Référence Unique de Mandat (RUM)",
+      "contractReference": "Référence du contrat du titulaire du compte"
+    },
+    "validation": {
+      "ibanRequired": "Le code IBAN est requis",
+      "bicRequired": "Le code BIC est requis"
+    }
+  },
+  "signatureConfirmation": {
+    "title": "Confirmer la signature de l'accord"
+  },
+  "hardwareFields": {
+    "unitPrice": "Prix Unitaire",
+    "quantity": "Quantité",
+    "totalCost": "Coût Total"
+  },
+  "signatureOptions": {
+    "title": "Signature du Contrat",
+    "description": "Choisissez comment vous souhaitez compléter le processus de signature du contrat.",
+    "inPerson": {
+      "title": "Signature en Personne",
+      "description": "Complétez le processus de signature immédiatement avec un pavé de signature numérique ou un écran tactile.",
+      "button": "Signer Maintenant"
+    },
+    "sendContract": {
+      "title": "Envoyer le Contrat",
+      "description": "Envoyer le contrat par email en utilisant PDFFiller pour la signature à distance.",
+      "button": "Envoyer le Contrat"
+    },
+    "secureRemote": {
+      "title": "Signature à Distance Sécurisée",
+      "description": "Envoyer le contrat via un lien email sécurisé pour signature à distance avec vérification.",
+      "button": "Envoyer avec 2FA"
+    },
+    "approverFlow": {
+      "title": "Signature avec Approbateur",
+      "description": "L'approbateur interne examine le contrat avant de l'envoyer au client pour signature",
+      "button": "Réviser et Approuver",
+      "confirmDialog": {
+        "title": "Confirmer les Détails de l'Expéditeur",
+        "description": "Vérifiez et mettez à jour vos informations d'expéditeur avant de lancer le flux d'approbation. Ces informations seront utilisées comme expéditeur du document et approbateur interne.",
+        "senderName": "Nom de l'Expéditeur",
+        "senderEmail": "Email de l'Expéditeur",
+        "namePlaceholder": "Entrez votre nom complet",
+        "emailPlaceholder": "Entrez votre email",
+        "note": "Note",
+        "noteText": "Vous examinerez le contrat via signature intégrée avant de l'envoyer au client.",
+        "confirm": "Confirmer et Continuer"
+      }
+    }
+  },
+  "navigation": { "startNew": "Démarrer un Nouvel Abonnement" },
+  "planSelection": {
+    "title": "Plans d'Abonnement",
+    "description": "Choisissez votre plan préféré et ajoutez des packages optionnels pour personnaliser votre abonnement.",
+    "instruction": "Dans cette section vous choisissez les Services qui seront facturés mensuellement",
+    "choosePlan": "Choisissez Votre Plan",
+    "serviceLocation": "Emplacement du Service",
+    "contractDetails": {
+      "title": "Détails du Contrat d'Abonnement",
+      "description": "Définir le type et la durée du contrat",
+      "type": "Type de Contrat",
+      "duration": "Durée du Contrat",
+      "individual": "Particulier",
+      "professional": "Professionnel",
+      "months": "{{count}} mois"
+    },
+    "totalScreens": {
+      "title": "Total des Écrans et Quantité de Plans",
+      "description": "Entrez le nombre total d'écrans nécessaires",
+      "label": "Total des Écrans Nécessaires",
+      "breakdown": "Répartition de la Quantité de Plans",
+      "basePlans": "Plans de Base",
+      "baseScreens": "Écrans de Base",
+      "additionalScreens": "Écrans Supplémentaires",
+      "totalScreensLabel": "Total des Écrans",
+      "additionalCost": "Coût des écrans supplémentaires : {{cost}}/mois",
+      "notAvailable": "Les écrans supplémentaires ne sont pas disponibles pour {{location}}"
+    },
+    "plans": {
+      "basic_us": {
+        "name": "PLAN MY SXM",
+        "price": "29$/mois",
+        "description": "",
+        "features": []
+      },
+      "basic_fr": {
+        "name": "BOUQUET MY SXM",
+        "price": "29€/mois",
+        "description": "",
+        "features": []
+      },
+      "full_us": {
+        "name": "PLAN ALL MY SXM",
+        "price": "89$/mois",
+        "description": "",
+        "features": []
+      },
+      "full_fr": {
+        "name": "BOUQUET ALL MY SXM",
+        "price": "89€/mois",
+        "description": "",
+        "features": []
+      },
+      "sbh": {
+        "name": "BOUQUET MY SBH",
+        "price": "89€/mois",
+        "description": "",
+        "features": []
+      }
+    },
+    "addons": {
+      "title": "Options Additionnelles",
+      "alreadyIncluded": "Déjà inclus dans le plan",
+      "notAvailable": "Aucune option n'est disponible pour {{location}}.",
+      "family_us": { "name": "Option FAMILY+" },
+      "sport_us": { "name": "Option SPORT+" },
+      "cinema_us": { "name": "Option CINEMA+" },
+      "kids_us": { "name": "Option KIDS+" },
+      "cine_us": { "name": "Option CINÉ+" },
+      "family_fr": { "name": "Option FAMILY+" },
+      "sport_fr": { "name": "Option SPORT+" },
+      "cinema_fr": { "name": "Option CINEMA+" },
+      "kids_fr": { "name": "Option KIDS+" }
+    },
+    "additionalScreens": {
+      "title": "Écrans Supplémentaires",
+      "description": "Écrans à ajouter à au(x) plan(s) de base",
+      "label": "Nombre d'écrans supplémentaires",
+      "additionalCost": "Coût supplémentaire : {{cost}}/mois",
+      "notAvailable": "Les écrans supplémentaires ne sont pas disponibles pour {{location}}."
+    },
+    "decoder": {
+      "title": "Location de Décodeur - Besoin de un décodeur par écran",
+      "description": "Choisissez la location mensuelle ci dessous - A defaut il vous faudra les acheter",
+      "rent": {
+        "title": "Louer le(s) décodeur(s)",
+        "description": "Payer des frais mensuels pour la location du décodeur"
+      },
+      "buy": { "title": "Acheter le(s) décodeur(s)", "description": "Achat unique de décodeurs" },
+      "basePlan": "Plan de Base :",
+      "additionalScreensLabel": "Écrans Supplémentaires :",
+      "totalDecoders": "Total des Décodeurs :",
+      "decoderCount": "{{count}} décodeur",
+      "decoderCount_plural": "{{count}} décodeurs",
+      "perDecoder": "par décodeur",
+      "totalMonthly": "Total Mensuel",
+      "totalOneTime": "Paiement Unique Total",
+      "notAvailable": "L'achat de décodeur n'est pas disponible pour cet emplacement. Location uniquement."
+    },
+    "addNote": "Ajouter des notes ou des instructions spéciales...",
+    "addNoteScreens": "Ajouter des notes ou des instructions spéciales pour les écrans supplémentaires...",
+    "perMonth": "mois",
+    "customItem": {
+      "title": "Divers - A ajouter à la section Abonnements et options",
+      "description": "Ajouter un élément récurrent spécial",
+      "nameLabel": "Divers",
+      "namePlaceholder": "Entrer la note à ajouter",
+      "nameDescription": "",
+      "priceLabel": "Impact sur le montant mensuel",
+      "pricePlaceholder": "0.00",
+      "priceDescription": "",
+      "note": "Cet article sera ajouté au total mensuel de l'abonnement.",
+      "customItemLabel": "Article Personnalisé"
+    }
+  },
+  "location": {
+    "title": "Lieu de Service",
+    "description": "Sélectionnez l'emplacement où le service d'abonnement sera fourni.",
+    "label": "Lieu",
+    "placeholder": "Sélectionner un lieu",
+    "options": {
+      "saintBarthelemy": "SBH - Saint-Barthélemy",
+      "saintMartin": "SFG - Saint-Martin",
+      "sintMaarten": "SXM - Sint-Maarten",
+      "wtn": "exWTN",
+      "other": "Autre"
+    }
+  },
+  "demographics": {
+    "title": "Informations Personnelles",
+    "description": "Veuillez fournir les informations personnelles requises pour toutes les parties impliquées.",
+    "instruction": "Veuillez indiquer les informations relatives aux contacts concernés",
+    "owner": "Informations du Propriétaire ou Locataire",
+    "manager": "Responsable ou Représentant (Optionnel)",
+    "financialManager": "Responsable Financier (Optionnel)",
+    "delivery": "Détails de Livraison pour Votre Équipement (Optionnel)",
+    "copyFromOwner": "Copier depuis le propriétaire",
+    "marketingConsent": "Je souhaite recevoir des informations et des offres commerciales relatives aux autres produits et services du Groupe Ideal par email",
+    "deliveryNote": "À remplir s'ils sont différents des détails de facturation"
+  },
+  "signature": {
+    "title": "Signature du Contrat",
+    "description": "Choisissez comment vous souhaitez procéder avec la signature du contrat.",
+    "inPerson": "Signature en Personne",
+    "inPersonDescription": "Complétez le processus de signature en personne à notre bureau.",
+    "sendContract": "Envoyer le Contrat",
+    "sendContractDescription": "Envoyer le contrat électroniquement pour signature à distance.",
+    "secureSignature": "Signature à Distance Sécurisée",
+    "secureSignatureDescription": "Envoyer le contrat par email/SMS avec authentification à deux facteurs."
+  },
+  "customItem": {
+    "title": "Divers Mensuel (Optionnel)",
+    "description": "Ajouter une remarque particuliere affectée aux mensualités et son éventuel impact financier",
+    "itemName": "Note particulière",
+    "monthlyDiscount": "Remise Mensuelle",
+    "itemNamePlaceholder": "Remise ou contribution mensuelle exceptionnelle negociée",
+    "itemNameDescription": "Entrez un nom descriptif pour l'article personnalisé",
+    "amount": "Montant",
+    "amountUSD": "Montant ($)",
+    "amountEUR": "Montant (€)",
+    "price": "Prix",
+    "pricePlaceholder": "0.00",
+    "priceDescription": "Impact financier de cette note",
+    "customItemLabel": "Article Personnalisé",
+    "name": "Nom de l'article",
+    "nameLabel": "Nom de l'article",
+    "namePlaceholder": "Entrez le nom de l'article (ex., Forfait de Chaînes VIP)",
+    "priceLabel": "Prix de l'Article",
+    "autoSuggestedDiscountHint": "Cette remise est suggérée automatiquement en fonction de la configuration des écrans. Vous pouvez la modifier.",
+    "discountApplied": "Remise de {{amount}} appliquée"
+  },
+  "planQuantity": {
+    "label": "Nombre de Plans",
+    "autoCalculated": "Auto-calculé",
+    "autoCalculatedHint": "Ceci est calculé automatiquement en fonction du nombre total d'écrans"
+  }
+}

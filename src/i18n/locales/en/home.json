@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Subscription Management",
+    "subtitle": "Made Simple",
+    "description": "Streamline your subscription workflow with our professional management platform. From setup to signatures, we've got you covered.",
+    "createNew": "Create New Subscription",
+    "findExisting": "Find Existing"
+  },
+  "features": {
+    "title": "Why Choose SubManager Pro?",
+    "items": [
+      {
+        "title": "Smart Contract Management",
+        "description": "Automated contract generation and digital signature workflows."
+      },
+      {
+        "title": "Compliance Ready",
+        "description": "Built-in legal compliance for Caribbean territories and beyond."
+      },
+      {
+        "title": "Multi-Location Support",
+        "description": "Manage subscriptions across different geographical locations."
+      }
+    ]
+  },
+  "stats": {
+    "activeSubscriptions": "Active Subscriptions",
+    "monthlyRevenue": "Monthly Revenue",
+    "newCustomers": "New Customers",
+    "retentionRate": "Retention Rate"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "newSubscription": {
+      "title": "New Subscription",
+      "description": "Create a new subscription with location and demographics setup"
+    },
+    "findSubscription": {
+      "title": "Find Subscription",
+      "description": "Search and retrieve existing subscription information"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "View subscription analytics and performance metrics"
+    },
+    "legalDocuments": {
+      "title": "Legal Documents",
+      "description": "Access legal documents, terms, and policies"
+    },
+    "getStarted": "Get Started"
+  },
+  "search": {
+    "title": "Find Existing Subscription",
+    "label": "Subscription ID or Customer Email",
+    "placeholder": "Enter subscription ID or email address",
+    "button": "Search Subscription"
+  },
+  "security": {
+    "title": "Secure & Compliant",
+    "description": "All subscription data is encrypted and stored securely. Our platform complies with international data protection standards and privacy regulations."
+  }
+}

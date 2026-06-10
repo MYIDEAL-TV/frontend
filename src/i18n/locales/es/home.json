@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Gestión de Suscripciones",
+    "subtitle": "Hecho Simple",
+    "description": "Optimice su flujo de trabajo de suscripciones con nuestra plataforma de gestión profesional. Desde la configuración hasta las firmas, lo tenemos cubierto.",
+    "createNew": "Crear Nueva Suscripción",
+    "findExisting": "Buscar Existente"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir SubManager Pro?",
+    "items": [
+      {
+        "title": "Gestión Inteligente de Contratos",
+        "description": "Generación automática de contratos y flujos de firma digital."
+      },
+      {
+        "title": "Listo para Cumplimiento",
+        "description": "Cumplimiento legal integrado para territorios del Caribe y más allá."
+      },
+      {
+        "title": "Soporte Multi-Ubicación",
+        "description": "Gestione suscripciones en diferentes ubicaciones geográficas."
+      }
+    ]
+  },
+  "stats": {
+    "activeSubscriptions": "Suscripciones Activas",
+    "monthlyRevenue": "Ingresos Mensuales",
+    "newCustomers": "Nuevos Clientes",
+    "retentionRate": "Tasa de Retención"
+  },
+  "quickActions": {
+    "title": "Acciones Rápidas",
+    "newSubscription": {
+      "title": "Nueva Suscripción",
+      "description": "Crear una nueva suscripción con configuración de ubicación y datos demográficos"
+    },
+    "findSubscription": {
+      "title": "Buscar Suscripción",
+      "description": "Buscar y recuperar información de suscripción existente"
+    },
+    "analytics": {
+      "title": "Analítica",
+      "description": "Ver análisis y métricas de rendimiento de suscripciones"
+    },
+    "legalDocuments": {
+      "title": "Documentos Legales",
+      "description": "Acceder a documentos legales, términos y políticas"
+    },
+    "getStarted": "Comenzar"
+  },
+  "search": {
+    "title": "Buscar Suscripción Existente",
+    "label": "ID de Suscripción o Email del Cliente",
+    "placeholder": "Ingrese el ID de suscripción o dirección de email",
+    "button": "Buscar Suscripción"
+  },
+  "security": {
+    "title": "Seguro y Conforme",
+    "description": "Todos los datos de suscripción están cifrados y almacenados de forma segura. Nuestra plataforma cumple con los estándares internacionales de protección de datos y regulaciones de privacidad."
+  }
+}

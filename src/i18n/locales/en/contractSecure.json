@@ -1,0 +1,25 @@
+{
+  "title": "Secure Contract Delivery",
+  "loading": {
+    "message": "Sending secure contract invitation...",
+    "title": "Preparing Your Contract",
+    "description": "Connecting to SignNow and generating your contract..."
+  },
+  "success": {
+    "title": "Contract invitation sent successfully!",
+    "signingLinkTitle": "Signing Link Generated",
+    "description": "A secure signing link has been generated for:",
+    "instructionsDescription": "You can copy the link below and send it via email, SMS, or your preferred messaging platform.",
+    "documentIdLabel": "Document ID",
+    "signingLinkLabel": "Signing Link"
+  },
+  "error": {
+    "staffProfile": "Unable to find staff profile. Please ensure you are logged in as a staff member."
+  },
+  "buttons": {
+    "resend": "Resend Invitation",
+    "returnDashboard": "Return to Dashboard",
+    "tryAgain": "Try Again",
+    "goBack": "Go Back"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "title": "Contract Summary",
+    "description": "Review your subscription details and sign the contract",
+    "backButton": "Back to Subscription"
+  },
+  "details": {
+    "subscriptionTitle": "Subscription Details",
+    "serviceLocation": "Service Location",
+    "subscriber": "Subscriber",
+    "planPricing": "Plan & Pricing",
+    "plan": "Plan",
+    "addon": "Add-on",
+    "additionalScreens": "Additional Screen(s)",
+    "totalMonthly": "Total Monthly"
+  },
+  "terms": {
+    "title": "Contract Terms",
+    "introduction": "This Contract is entered into by the Client with IDEAL TV, a French-law entity, a simplified joint-stock registered with the Basse-Terre Trade and Companies Register (Guadeloupe) under number 840 102 164.",
+    "compositionTitle": "The contract is composed of:",
+    "subscriptionForm": "the present Subscription Form,",
+    "generalConditions": "the General Subscription Conditions,",
+    "privacyPolicy": "the Privacy Policy,",
+    "contractSummary": "the Contract Summary and",
+    "standardizedSheet": "the associated Standardized Information Sheet"
+  },
+  "signature": {
+    "title": "Digital Signature",
+    "description": "Sign below to complete your subscription contract",
+    "clear": "Clear",
+    "complete": "Complete Contract",
+    "agreement": "By this signature, I certify that I have the necessary capacity to enter into and execute the Contract. I acknowledge the contract terms and confirm that I have read the contract and accept its terms."
+  },
+  "messages": {
+    "noData": {
+      "title": "No Data Found",
+      "description": "Please complete the subscription form first."
+    },
+    "signatureRequired": {
+      "title": "Signature Required",
+      "description": "Please provide your signature to complete the contract."
+    },
+    "contractCompleted": {
+      "title": "Contract Completed",
+      "description": "Your subscription contract has been signed successfully!"
+    }
+  },
+  "plans": {
+    "Basic": "Basic",
+    "Full": "Full"
+  },
+  "addons": {
+    "Family": "Family",
+    "Sport": "Sport",
+    "Cinema": "Cinema",
+    "Kids": "Kids"
+  },
+  "integration": {
+    "title": "PDF Contract Integration",
+    "description": "Integration with external PDF filling and signature services."
+  }
+}

@@ -1,0 +1,61 @@
+stages:
+  - install
+  - build
+  - deploy
+
+# NOTE: Do NOT set NODE_ENV=production globally, it breaks Vite installs.
+variables:
+  NODE_ENV: development
+
+install_dependencies:
+  stage: install
+  tags:
+    - idealtv_dev
+  script:
+    - node -v
+    - npm -v
+    - npm ci
+  cache:
+    key: node-modules
+    paths:
+      - node_modules/
+
+  only:
+    - main
+
+build_vite:
+  stage: build
+  tags:
+    - idealtv_dev
+  dependencies:
+    - install_dependencies
+  script:
+    - echo "Copying production env file for Vite build"
+    - sudo cp /opt/idealTv/.env .env
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 hour
+  cache:
+    key: node-modules
+    paths:
+      - node_modules/
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  tags:
+    - idealtv_dev
+  dependencies:
+    - build_vite
+  script:
+    - echo "Deploying build to /var/www/html..."
+    - sudo rm -rf /var/www/html/*
+    - sudo cp -r dist/* /var/www/html/
+    - echo "Restarting nginx..."
+    - sudo systemctl restart nginx
+    - echo "Deployment completed successfully ✅"
+  only:
+    - main

@@ -1,0 +1,153 @@
+{
+  "title": "Nueva Suscripción",
+  "steps": {
+    "location": { "title": "Ubicación", "description": "Ubicación del servicio", "instruction": "Elija la ubicación y el tipo de contrato a continuación" },
+    "subscription": { "title": "Suscripción", "description": "Selección de plan" },
+    "hardwareFees": { "title": "Hardware y Tarifas", "description": "Servicios y equipo" },
+    "demographics": { "title": "Demografía", "description": "Información personal" },
+    "signature": { "title": "Firma", "description": "Finalización del contrato" }
+  },
+  "progress": {
+    "step": "Paso {{current}} de {{total}}",
+    "loadingStaff": "Cargando perfil del personal..."
+  },
+  "validation": {
+    "locationRequired": { "title": "Ubicación Requerida", "description": "Por favor seleccione una ubicación de servicio para continuar." },
+    "planRequired": { "title": "Selección de Plan Requerida", "description": "Por favor seleccione un plan de suscripción para continuar." },
+    "invalidPlan": { "title": "Selección de Plan Inválida", "description": "El plan seleccionado no está disponible para {{location}}." },
+    "invalidAddons": { "title": "Selección de Complemento Inválida", "description": "Algunos complementos seleccionados no están disponibles para {{location}}." },
+    "priceRequired": { "title": "Precio Requerido", "description": "Por favor ingrese un precio para el artículo personalizado." },
+    "itemNameRequired": { "title": "Nombre de Artículo Requerido", "description": "Por favor ingrese un nombre para el artículo personalizado." },
+    "requiredInfo": { "title": "Falta Información Requerida", "description": "Por favor complete todos los campos requeridos para el propietario/inquilino." },
+    "financialManagerRequired": { "title": "Falta Información Requerida", "description": "Por favor proporcione toda la información requerida del Gerente Financiero para contratos profesionales." },
+    "staffRequired": { "title": "Perfil del Personal Requerido", "description": "No se puede crear la suscripción. Por favor contacte al administrador." }
+  },
+  "techServices": { "title": "Servicios Técnicos (Opcional)", "description": "Seleccionar servicios técnicos y costos asociados", "connectionFee": "Tarifa de Conexión", "installFee": "Tarifa de Instalación", "addNote": "Agregar notas o instrucciones especiales..." },
+  "hardware": { "title": "Hardware (Opcional)", "description": "Seleccionar artículos de hardware y costos asociados", "instruction": "En esta sección elija el hardware opcional y otros servicios a pagar al inicio", "decoder": "Decodificador", "rentalSelected": "(Alquiler seleccionado en paso anterior)", "decoderRentalNote": "(Incluido en el alquiler mensual)", "satelliteDish": "Antena Satelital", "other": "Otro", "other2": "Otro Equipo #2", "otherDescription": "Descripción del hardware", "addNote": "Agregar notas o instrucciones especiales..." },
+  "additionalInfo": { "title": "Información Adicional (Opcional)", "description": "Cualquier otra información a incluir en el contrato", "label": "Otra Información", "itemDescription": "Artículo Adicional", "itemDescriptionPlaceholder": "Ingrese la descripción del artículo adicional", "itemCost": "Costo del Artículo Adicional", "placeholder": "Ingrese cualquier información adicional aquí...", "note": "Esta información se incluirá en la documentación del contrato." },
+  "legalPackage": { "title": "Por favor incluya el paquete legal", "description": "Agregar términos y condiciones legales completos específicos para su ubicación y tipo de contrato" },
+  "sepaMandate": {
+    "title": "Agregar Mandato SEPA",
+    "description": "Incluir un mandato de débito directo SEPA con el contrato"
+  },
+  "paymentAuthorization": {
+    "title": "Autorización de Pago",
+    "none": "Sin autorización de pago adicional",
+    "sepa": "Agregar Mandato SEPA",
+    "ccAuth": "Agregar Autorización de Tarjeta de Crédito",
+    "ccAuthDescription": "Incluir un formulario de autorización de tarjeta de crédito con el contrato"
+  },
+  "sepaStep": {
+    "title": "Mandato SEPA",
+    "description": "Información de domiciliación bancaria",
+    "fields": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "companyName": "Nombre de la Empresa",
+      "address": "Dirección",
+      "iban": "CÓDIGO IBAN",
+      "bic": "CÓDIGO BIC",
+      "paymentRecurrent": "Pago Recurrente",
+      "paymentPonctuel": "Pago Único",
+      "rum": "Referencia Única de Mandato (RUM)",
+      "contractReference": "Referencia del contrato del titular de la cuenta"
+    },
+    "validation": {
+      "ibanRequired": "El código IBAN es obligatorio",
+      "bicRequired": "El código BIC es obligatorio"
+    }
+  },
+  "signatureConfirmation": {
+    "title": "Confirmar la firma del acuerdo"
+  },
+  "hardwareFields": {
+    "unitPrice": "Precio Unitario",
+    "quantity": "Cantidad",
+    "totalCost": "Costo Total"
+  },
+  "signatureOptions": { "title": "Firma del Contrato", "description": "Elija cómo desea completar el proceso de firma del contrato.", "inPerson": { "title": "Firma en Persona", "description": "Complete el proceso de firma inmediatamente con una tableta de firma digital o pantalla táctil.", "button": "Firmar Ahora" }, "sendContract": { "title": "Enviar Contrato", "description": "Enviar el contrato por correo electrónico usando PDFFiller para firma remota.", "button": "Enviar Contrato" }, "secureRemote": { "title": "Firma Remota Segura", "description": "Enviar contrato por enlace seguro por correo para firma remota con verificación.", "button": "Enviar con 2FA" }, "approverFlow": { "title": "Firma con Aprobador", "description": "El aprobador interno revisa el contrato antes de enviarlo al cliente para su firma", "button": "Revisar y Aprobar", "confirmDialog": { "title": "Confirmar Detalles del Remitente", "description": "Revise y actualice su información de remitente antes de iniciar el flujo de aprobación. Esta información se utilizará como remitente del documento y aprobador interno.", "senderName": "Nombre del Remitente", "senderEmail": "Correo del Remitente", "namePlaceholder": "Ingrese su nombre completo", "emailPlaceholder": "Ingrese su correo", "note": "Nota", "noteText": "Revisará el contrato mediante firma incrustada antes de enviarlo al cliente.", "confirm": "Confirmar y Continuar" } } },
+  "navigation": { "startNew": "Iniciar Nueva Suscripción" },
+  "planSelection": {
+    "title": "Planes de Suscripción", 
+    "description": "Elija su plan preferido y agregue paquetes opcionales para personalizar su suscripción.", 
+    "instruction": "En esta sección elige los Servicios que se facturarán mensualmente",
+    "choosePlan": "Elija Su Plan",
+    "serviceLocation": "Ubicación del Servicio",
+    "quantity": {
+      "label": "Cantidad"
+    },
+    "contractDetails": {
+      "title": "Detalles del contrato de suscripción",
+      "description": "Define el tipo y la duración del contrato",
+      "type": "Tipo de contrato",
+      "duration": "Duración del contrato",
+      "individual": "Individual",
+      "professional": "Profesional",
+      "months": "{{count}} meses"
+    },
+    "totalScreens": {
+      "title": "Total de pantallas y cantidad de planes",
+      "description": "Ingresa el número total de pantallas necesarias",
+      "label": "Total de pantallas necesarias",
+      "breakdown": "Desglose de cantidad de planes",
+      "basePlans": "Planes Base",
+      "baseScreens": "Pantallas Base",
+      "additionalScreens": "Pantallas Adicionales",
+      "totalScreensLabel": "Total de pantallas",
+      "additionalCost": "Costo de pantallas adicionales: {{cost}}/mes",
+      "notAvailable": "Las pantallas adicionales no están disponibles para {{location}}"
+    },
+    "plans": {
+      "basic_us": { "name": "MY SXM", "price": "$29/mes", "description": "Perfecto para servicios esenciales y necesidades básicas", "features": ["Acceso al servicio básico", "Soporte estándar", "2 usuarios simultáneos", "Características básicas"] },
+      "basic_fr": { "name": "MY SXM", "price": "29€/mes", "description": "Ideal para un paquete de entrada diversificado", "features": ["Soporte en línea", "2 usuarios simultáneos", "Canales más conocidos"] },
+      "full_us": { "name": "ALL MY SXM", "price": "$89/mes", "description": "Acceso completo con características premium y soporte prioritario", "features": ["Todas las características básicas", "Soporte premium", "5 usuarios simultáneos", "Características avanzadas", "Servicio al cliente prioritario"] },
+      "full_fr": { "name": "ALL MY SXM", "price": "89€/mes", "description": "Paquete completo con todos los canales no premium", "features": ["Soporte dedicado", "5 usuarios simultáneos", "Funcionalidad avanzada"] },
+      "sbh": { "name": "MY SBH", "price": "89€/mes", "description": "Paquete completo con todos los canales no premium", "features": ["Soporte dedicado", "5 usuarios simultáneos", "Funcionalidad avanzada"] }
+    },
+    "addons": { "title": "Complementos Opcionales", "alreadyIncluded": "Ya incluido en el plan", "notAvailable": "No hay complementos disponibles para {{location}}.", "family_us": { "name": "Opción FAMILY+" }, "sport_us": { "name": "Opción SPORT+" }, "cinema_us": { "name": "Opción CINEMA+" }, "kids_us": { "name": "Opción KIDS+" }, "cine_us": { "name": "Opción CINE+" }, "family_fr": { "name": "Opción FAMILY+" }, "sport_fr": { "name": "Opción SPORT+" }, "cinema_fr": { "name": "Opción CINEMA+" }, "kids_fr": { "name": "Opción KIDS+" } },
+    "additionalScreens": { "title": "Pantallas Adicionales", "description": "Pantallas adicionales más allá de su plan base", "label": "Número de pantallas adicionales (hasta {{max}}) - {{price}}/mes cada una", "additionalCost": "Costo adicional: {{cost}}/mes", "notAvailable": "Las pantallas adicionales no están disponibles para {{location}}." },
+    "decoder": { "title": "Opciones de Decodificador", "description": "Elija cómo desea adquirir sus decodificadores", "rent": { "title": "Alquilar Decodificadores", "description": "Pagar una tarifa mensual por el alquiler del decodificador" }, "buy": { "title": "Comprar Decodificadores", "description": "Compra única de decodificadores" }, "basePlan": "Plan Base:", "additionalScreensLabel": "Pantallas Adicionales:", "totalDecoders": "Total de Decodificadores:", "decoderCount": "{{count}} decodificador", "decoderCount_plural": "{{count}} decodificadores", "perDecoder": "por decodificador", "totalMonthly": "Total Mensual", "totalOneTime": "Pago Único Total", "notAvailable": "La compra de decodificador no está disponible para esta ubicación. Solo alquiler." },
+    "addNote": "Agregar notas o instrucciones especiales...",
+    "addNoteScreens": "Agregar notas o instrucciones especiales para pantallas adicionales...",
+    "perMonth": "mes",
+    "customItem": { "title": "Artículo Opcional Personalizado", "description": "Agregar un artículo opcional con precio personalizado a la suscripción", "nameLabel": "Nombre del Artículo", "namePlaceholder": "Ingrese el nombre del artículo (ej., Paquete de Canales VIP)", "nameDescription": "Ingrese un nombre descriptivo para el artículo personalizado", "priceLabel": "Precio del Artículo", "pricePlaceholder": "0.00", "priceDescription": "Monto opcional asociado con este artículo", "note": "Este artículo se agregará al total mensual de la suscripción.", "customItemLabel": "Artículo Personalizado" }
+  },
+  "location": { "title": "Ubicación del Servicio", "description": "Seleccione la ubicación donde se proporcionará el servicio de suscripción.", "label": "Ubicación", "placeholder": "Seleccionar una ubicación", "options": { "saintBarthelemy": "SBH - Saint Barthélemy", "saintMartin": "SFG - Saint-Martin", "sintMaarten": "SXM - Sint-Maarten", "wtn": "exWTN", "other": "Otro" } },
+  "demographics": { "title": "Información Personal", "description": "Por favor proporcione la información personal requerida para todas las partes involucradas.", "instruction": "Por favor indique la información relacionada con los contactos relevantes", "owner": "Información del Propietario o Inquilino", "manager": "Gerente o Representante (Opcional)", "financialManager": "Gerente Financiero (Opcional)", "delivery": "Detalles de Entrega para Su Equipo (Opcional)", "copyFromOwner": "Copiar del propietario", "marketingConsent": "Deseo recibir información y ofertas comerciales relacionadas con otros productos y servicios del Grupo Ideal por email", "deliveryNote": "A completar si son diferentes de los detalles de facturación" },
+  "signature": {
+    "title": "Firma del Contrato",
+    "description": "Elija cómo desea proceder con la firma del contrato.",
+    "inPerson": "Firma en Persona",
+    "inPersonDescription": "Complete el proceso de firma en persona en nuestra oficina.",
+    "sendContract": "Enviar Contrato",
+    "sendContractDescription": "Enviar el contrato electrónicamente para firma remota.",
+    "secureSignature": "Firma Remota Segura",
+    "secureSignatureDescription": "Enviar contrato por email/SMS con autenticación de dos factores."
+  },
+  "customItem": {
+    "title": "Artículo Personalizado (Opcional)",
+    "description": "Agregar un artículo específico con un costo asociado a esta suscripción",
+    "itemName": "Nombre del Artículo",
+    "monthlyDiscount": "Descuento Mensual",
+    "itemNamePlaceholder": "ej., Tarifa de instalación, Equipo especial, Descuento, etc.",
+    "itemNameDescription": "Ingrese un nombre descriptivo para el artículo personalizado",
+    "amount": "Monto",
+    "amountUSD": "Monto ($)",
+    "amountEUR": "Monto (€)",
+    "price": "Precio",
+    "pricePlaceholder": "0.00",
+    "priceDescription": "Monto opcional asociado con este artículo",
+    "customItemLabel": "Artículo Personalizado",
+    "name": "Nombre del artículo",
+    "nameLabel": "Nombre del artículo",
+    "namePlaceholder": "Ingrese el nombre del artículo (ej., Paquete de Canales VIP)",
+    "priceLabel": "Precio del Artículo",
+    "autoSuggestedDiscountHint": "Este descuento se sugiere automáticamente según la configuración de pantallas. Puede modificarlo.",
+    "discountApplied": "Descuento de {{amount}} aplicado"
+  },
+  "planQuantity": {
+    "label": "Número de Planes",
+    "autoCalculated": "Auto-calculado",
+    "autoCalculatedHint": "Esto se calcula automáticamente según el total de pantallas"
+  }
+}

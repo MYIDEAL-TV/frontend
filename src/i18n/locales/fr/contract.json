@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "title": "Résumé du Contrat",
+    "description": "Examinez les détails de votre abonnement et signez le contrat",
+    "backButton": "Retour à l'Abonnement"
+  },
+  "details": {
+    "subscriptionTitle": "Détails de l'Abonnement",
+    "serviceLocation": "Lieu de Service",
+    "subscriber": "Abonné",
+    "planPricing": "Plan et Tarification",
+    "plan": "Plan",
+    "addon": "Module Complémentaire",
+    "additionalScreens": "Écran(s) Supplémentaire(s)",
+    "totalMonthly": "Total Mensuel"
+  },
+  "terms": {
+    "title": "Termes du Contrat",
+    "introduction": "Le présent Contrat est conclu par le Client avec IDEAL TV, une entité de droit français, une société par actions simplifiée enregistrée au Registre du Commerce et des Sociétés de Basse-Terre (Guadeloupe) sous le numéro 840 102 164.",
+    "compositionTitle": "Le contrat est composé de :",
+    "subscriptionForm": "le présent Formulaire d'Abonnement,",
+    "generalConditions": "les Conditions Générales d'Abonnement,",
+    "privacyPolicy": "la Politique de Confidentialité,",
+    "contractSummary": "le Résumé du Contrat et",
+    "standardizedSheet": "la Fiche d'Information Standardisée associée"
+  },
+  "signature": {
+    "title": "Signature Numérique",
+    "description": "Signez ci-dessous pour compléter votre contrat d'abonnement",
+    "clear": "Effacer",
+    "complete": "Compléter le Contrat",
+    "agreement": "Par cette signature, je certifie que j'ai la capacité nécessaire pour conclure et exécuter le Contrat. Je reconnais les termes du contrat et confirme que j'ai lu le contrat et accepte ses termes."
+  },
+  "messages": {
+    "noData": {
+      "title": "Aucune Donnée Trouvée",
+      "description": "Veuillez d'abord compléter le formulaire d'abonnement."
+    },
+    "signatureRequired": {
+      "title": "Signature Requise",
+      "description": "Veuillez fournir votre signature pour compléter le contrat."
+    },
+    "contractCompleted": {
+      "title": "Contrat Complété",
+      "description": "Votre contrat d'abonnement a été signé avec succès!"
+    }
+  },
+  "plans": {
+    "Basic": "Base",
+    "Full": "Complet"
+  },
+  "addons": {
+    "Family": "Famille",
+    "Sport": "Sport",
+    "Cinema": "Cinéma",
+    "Kids": "Enfants"
+  },
+  "integration": {
+    "title": "Intégration PDF du Contrat",
+    "description": "Intégration avec des services externes de remplissage et signature PDF."
+  }
+}

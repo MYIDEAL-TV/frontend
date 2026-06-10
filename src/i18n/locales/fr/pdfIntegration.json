@@ -1,0 +1,52 @@
+{
+  "title": "Signature du Contrat",
+  "description": "Complétez la signature de votre contrat avec SignNow",
+  "backButton": "Retour à l'Abonnement",
+  "loading": {
+    "title": "Préparation de Votre Contrat",
+    "description": "Connexion à SignNow et génération de votre contrat..."
+  },
+  "success": {
+    "title": "Contrat Prêt",
+    "description": "Votre contrat a été préparé via SignNow.",
+    "alert": "Votre contrat a été préparé et est prêt pour la signature. Vous pouvez le signer ci-dessous ou l'ouvrir dans un nouvel onglet pour une meilleure expérience."
+  },
+  "processing": {
+    "title": "Traitement du Contrat",
+    "description": "Votre contrat a été envoyé. Vous recevrez un email avec les instructions de signature."
+  },
+  "error": {
+    "noData": {
+      "title": "Aucune Donnée Trouvée",
+      "description": "Veuillez d'abord compléter le formulaire d'abonnement."
+    },
+    "integration": {
+      "title": "Erreur d'Intégration",
+      "description": "Impossible de se connecter à SignNow. Veuillez réessayer plus tard."
+    },
+    "failed": "Échec de l'initialisation de l'intégration SignNow. Veuillez réessayer."
+  },
+  "buttons": {
+    "openNewTab": "Ouvrir dans un Nouvel Onglet",
+    "returnDashboard": "Retour au Tableau de Bord",
+    "reloadPage": "Recharger la Page"
+  },
+  "interface": {
+    "title": "Interface de Signature du Contrat",
+    "description": "Complétez le processus de signature ci-dessous. Si vous rencontrez des problèmes, essayez de l'ouvrir dans un nouvel onglet.",
+    "unableToLoad": "Impossible de charger l'interface SignNow"
+  },
+  "approver": {
+    "title": "Mode de Révision de l'Approbateur",
+    "reviewAs": "Révision en tant que: {{name}} ({{email}})"
+  },
+  "summary": {
+    "title": "Résumé de l'Abonnement",
+    "customer": "Client",
+    "location": "Emplacement",
+    "plan": "Plan"
+  },
+  "bridge": {
+    "redirecting": "Redirection vers la page de confirmation..."
+  }
+}

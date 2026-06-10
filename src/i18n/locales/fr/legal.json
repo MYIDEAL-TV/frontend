@@ -1,0 +1,177 @@
+{
+  "title": "Informations Légales",
+  "description": "Documents légaux importants et politiques pour nos services d'abonnement.",
+  "pageTitle": "Documentation Légale",
+  "pageDescription": "Informations légales importantes, termes et politiques régissant nos services d'abonnement. Veuillez examiner ces documents attentivement.",
+  "contact": {
+    "title": "Informations de Contact",
+    "description": "Pour toute question ou préoccupation juridique, veuillez nous contacter :",
+    "legal": "Demandes légales :",
+    "privacy": "Questions de confidentialité :",
+    "legalInquiries": "Service Abonnés",
+    "legalInquiriesDesc": "Pour des questions concernant ces documents légaux ou votre abonnement :",
+    "legalEmail": "finance@myidealtv.com",
+    "dataProtectionOfficer": "Adresse du Service",
+    "dataProtectionDesc": "IDEAL TV - Gustavia BP411, 97133 Saint-Barthélemy",
+    "privacyEmail": "Téléphone : +590 590 434 434",
+    "lastUpdated": "Site Web",
+    "lastUpdatedDate": "www.myidealtv.com",
+    "lastUpdatedDesc": "Ces documents sont conformes au droit français et aux réglementations de protection des consommateurs. IDEAL TV est immatriculée à Basse-Terre (Guadeloupe) sous le numéro 840 102 164."
+  },
+  "generalConditions": {
+    "title": "Conditions Générales",
+    "content": {
+      "title": "Conditions Générales d'Abonnement - Service IDEAL TV",
+      "sections": [
+        {
+          "heading": "1. Objet et Description du Service",
+          "content": "Le Service IDEAL TV fournit un accès continu aux contenus télévisuels à l'adresse d'installation indiquée lors de la souscription, en contrepartie de frais de mise à disposition de l'équipement et d'une redevance mensuelle. Le service est commercialisé exclusivement sur le territoire de Sint-Maarten et son utilisation est limitée à ce territoire en raison des droits accordés à IDEAL TV."
+        },
+        {
+          "heading": "2. Durée du Contrat et Renouvellement",
+          "content": "Le contrat est conclu pour une durée déterminée avec reconduction tacite. IDEAL TV vous informera par écrit entre 3 mois et 1 mois avant l'échéance de votre droit de ne pas reconduire. Vous pouvez résilier à l'échéance du contrat avec un préavis écrit d'1 mois, ou immédiatement après la première reconduction en cas de déménagement ou de modification du foyer fiscal."
+        },
+        {
+          "heading": "3. Équipements et Responsabilités",
+          "content": "L'équipement IDEAL TV est mis à votre disposition avec transfert de propriété. Vous êtes responsable de l'installation et de la maintenance de l'équipement à votre domicile. Toute altération, duplication ou usage frauduleux de l'équipement est interdit et peut entraîner des poursuites judiciaires. Vous devez restituer l'équipement dans les 15 jours suivant la résiliation du contrat."
+        },
+        {
+          "heading": "4. Modalités de Paiement et Facturation",
+          "content": "Les tarifs d'abonnement sont facturés mensuellement à terme à échoir en euros. La facturation couvre le bouquet TV, les options programmes, les prestations techniques et les frais de mise en service applicables. Les factures sont fournies électroniquement via votre espace Utilisateur. Le paiement s'effectue par prélèvement automatique. Tout retard ou défaut de paiement peut entraîner une suspension du service et des frais supplémentaires."
+        },
+        {
+          "heading": "5. Qualité du Service et Garanties",
+          "content": "IDEAL TV s'engage à assurer la permanence, la continuité et la qualité du Service TV. Si le service est inaccessible du fait de IDEAL TV pendant plus de 2 jours consécutifs, vous avez droit à un remboursement pour la période d'interruption. IDEAL TV n'est pas responsable des interruptions dues aux liaisons satellites, événements météorologiques, problèmes d'équipement, cas de force majeure ou défaillances du réseau électrique."
+        },
+        {
+          "heading": "6. Modifications Contractuelles",
+          "content": "Vous pouvez changer de bouquet TV, ajouter ou supprimer des options à tout moment via votre espace Utilisateur ou en boutique IDEAL TV. Les modifications nécessitent l'acceptation d'un avenant et prennent effet le premier jour du mois suivant. Les hausses tarifaires ne peuvent intervenir qu'à l'échéance de renouvellement avec un préavis de 2 mois. Les prix peuvent être indexés annuellement sur l'indice ICHTrev-TS de l'INSEE."
+        },
+        {
+          "heading": "7. Résiliation et Annulation",
+          "content": "Vous pouvez résilier à l'échéance du contrat avec un préavis écrit d'1 mois envoyé par courrier recommandé à : Service Commercial IDEAL TV, Gustavia BP411, 97133 Saint-Barthélemy. La résiliation gratuite est possible après la première reconduction en cas de déménagement ou de modification du foyer fiscal (justificatif requis). L'équipement doit être restitué dans les 15 jours en boutique IDEAL TV ou à : Service Résiliation IDEAL TV, Gustavia BP411, 97133 Saint-Barthélemy."
+        },
+        {
+          "heading": "8. Réclamations et Médiation",
+          "content": "Pour toute réclamation, contactez le Service Abonnés IDEAL TV au 05 90 17 17 17 ou par courrier à Gustavia BP411, 97133 Saint-Barthélemy. IDEAL TV s'engage à répondre sous 30 jours ouvrables. Si la réponse ne vous satisfait pas, vous pouvez contacter le Service Consommateurs IDEAL TV ou le médiateur de l'AMCE (Association de Médiation des Communications Électroniques) via http://www.mediateur-telecom.fr."
+        },
+        {
+          "heading": "9. Règlement des Litiges",
+          "content": "Le présent contrat est régi par la loi française. Tout différend relatif à l'interprétation, l'application ou l'exécution sera soumis aux juridictions françaises territorialement compétentes. IDEAL TV peut céder ce contrat à tout moment conformément aux dispositions légales sans diminution de vos droits."
+        }
+      ]
+    }
+  },
+  "withdrawalMandates": {
+    "title": "Droit de Rétractation",
+    "content": {
+      "title": "Droit de Rétractation - Vente Hors Établissement",
+      "sections": [
+        {
+          "heading": "1. Délai de Rétractation",
+          "content": "Pour les contrats souscrits hors établissement (au sens de l'article L. 221-1 du Code de la Consommation), vous disposez d'un délai de rétractation de 14 jours à compter de la signature du contrat, sans avoir à donner de raison."
+        },
+        {
+          "heading": "2. Exercice du Droit de Rétractation",
+          "content": "Pour exercer votre droit de rétractation, envoyez le formulaire de rétractation (disponible en fin de contrat et téléchargeable depuis votre espace Utilisateur) soit en le déposant en boutique IDEAL TV, soit par courrier recommandé avec accusé de réception à : Service Abonnés IDEAL TV, Gustavia BP411, 97133 Saint-Barthélemy."
+        },
+        {
+          "heading": "3. Restitution des Équipements",
+          "content": "En cas de rétractation dans le délai de 14 jours, vous devez restituer à vos frais les équipements remis lors de la signature du contrat au plus tard dans les 14 jours suivant la notification de votre rétractation. Les équipements doivent être retournés en boutique IDEAL TV ou envoyés à : Service Abonnés IDEAL TV, Gustavia BP411, 97133 Saint-Barthélemy. La preuve de la notification est à votre charge."
+        },
+        {
+          "heading": "4. Modalités de Remboursement",
+          "content": "IDEAL TV remboursera la totalité des sommes perçues dans un délai de 14 jours par virement bancaire, avec votre accord exprès recueilli lors de la signature du contrat. Si vous avez demandé l'activation expresse des services avant l'expiration du délai de 14 jours, vous conservez le droit de vous rétracter mais devez restituer les équipements à l'état neuf et vous acquitter des frais de mise en service engagés."
+        }
+      ]
+    }
+  },
+  "privacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "content": {
+      "title": "Protection des Données Personnelles",
+      "sections": [
+        {
+          "heading": "1. Collecte des Données et Base Légale",
+          "content": "Les données personnelles demandées lors de la souscription sont obligatoires ; à défaut, l'abonnement ne pourra être conclu. Les données recueillies par IDEAL TV bénéficient de la protection de la loi « informatique et liberté » n° 78-17 du 6 janvier 1978 ainsi que du RGPD (Règlement Général sur la Protection des Données)."
+        },
+        {
+          "heading": "2. Vos Droits",
+          "content": "Vous disposez d'un droit d'accès, de rectification et d'opposition au traitement des données personnelles vous concernant. Pour exercer ces droits, adressez une demande par courrier postal à : Service Abonnés IDEAL TV, Gustavia BP411, Saint-Barthélemy, ou par mail à : finance@myidealtv.com. Votre demande devra mentionner votre identifiant client et le numéro de série de l'équipement, ou un justificatif d'identité."
+        },
+        {
+          "heading": "3. Utilisation et Finalité des Données",
+          "content": "Les données récoltées par IDEAL TV sont destinées à mieux vous connaître et à comprendre votre utilisation du produit IDEAL TV afin d'améliorer le produit, les services, la qualité de service et les dispositifs proposés. IDEAL TV pourra utiliser ces données dans le cadre d'opérations de marketing direct en vous adressant, par quelque support que ce soit et notamment par courrier électronique, des informations sur ses produits ou services analogues."
+        },
+        {
+          "heading": "4. Conservation des Données",
+          "content": "Vos données sont conservées pour la durée nécessaire à l'accomplissement des finalités mentionnées ci-dessus. S'agissant des traitements relatifs à l'exécution du contrat, au regard de la réglementation en vigueur sur l'identification des utilisateurs de services de communications électroniques (art. L.34-1 du code des postes et communications électroniques), les données peuvent être conservées au maximum pour une durée de 5 ans à compter de la fin de la relation."
+        },
+        {
+          "heading": "5. Saisine des Autorités",
+          "content": "Si vous estimez que vos droits Informatique et Libertés ne sont pas respectés après la réponse de IDEAL TV dans un délai maximum de 30 jours, vous avez la possibilité de saisir la Commission Nationale de l'Informatique et des Libertés (CNIL) à l'adresse suivante : CNIL – 3 place de Fontenoy – TSA 80715 – 75334 Paris cedex 07."
+        },
+        {
+          "heading": "6. Opposition au Démarchage Téléphonique",
+          "content": "Conformément à l'article L.224-27-1 du code de la consommation, vous disposez de la faculté de vous inscrire gratuitement sur la liste d'opposition au démarchage téléphonique (Bloctel) sur le site https://www.bloctel.gouv.fr ou par courrier adressé à : Société Opposetel, Service Bloctel, 6 rue Nicolas Siret."
+        }
+      ]
+    }
+  },
+  "contractSummary": {
+    "title": "Résumé du Contrat",
+    "content": {
+      "title": "Résumé du Contrat",
+      "sections": [
+        {
+          "heading": "Aperçu",
+          "content": "Ce Résumé du Contrat fournit un aperçu concis de votre accord d'abonnement avec IDEAL TV. Il est conçu pour vous aider à comprendre rapidement les termes et conditions clés de votre service."
+        },
+        {
+          "heading": "Fournisseur de Service",
+          "content": "IDEAL TV, une société par actions simplifiée enregistrée au Registre du Commerce et des Sociétés de Basse-Terre (Guadeloupe) sous le numéro 840 102 164."
+        },
+        {
+          "heading": "Caractéristiques Principales",
+          "content": "Le contrat établit une relation d'abonnement pour les services de télévision incluant des bouquets de chaînes, la fourniture d'équipement et le support technique. Le service est soumis à disponibilité dans votre zone de service."
+        },
+        {
+          "heading": "Prix et Paiement",
+          "content": "Les frais d'abonnement mensuels sont déterminés en fonction de votre plan sélectionné et de tous services supplémentaires. Le paiement est dû mensuellement via le mode de paiement que vous avez autorisé. Tous les prix incluent les taxes applicables."
+        },
+        {
+          "heading": "Durée et Résiliation",
+          "content": "Le contrat n'a pas de durée minimale sauf indication contraire. Vous pouvez résilier votre abonnement à tout moment avec un préavis de 30 jours. Les procédures de résiliation spécifiques sont détaillées dans les Conditions Générales."
+        }
+      ]
+    }
+  },
+  "standardizedSheet": {
+    "title": "Fiche d'Information Standardisée",
+    "content": {
+      "title": "Fiche d'Information Standardisée",
+      "sections": [
+        {
+          "heading": "Description du Service",
+          "content": "IDEAL TV fournit des services d'abonnement télévision incluant l'accès à divers bouquets de chaînes, du contenu à la demande et l'équipement associé. La disponibilité du service et les fonctionnalités peuvent varier selon l'emplacement et le plan sélectionné."
+        },
+        {
+          "heading": "Structure Tarifaire",
+          "content": "Les frais d'abonnement sont facturés mensuellement et varient en fonction du forfait sélectionné et de tous services supplémentaires. Les frais de location d'équipement, le cas échéant, sont inclus dans le prix d'abonnement mensuel. Tous les prix sont indiqués toutes taxes comprises."
+        },
+        {
+          "heading": "Installation et Équipement",
+          "content": "IDEAL TV fournit l'équipement nécessaire pour l'accès au service. L'installation peut être effectuée par nos techniciens ou auto-installée selon le type de service. L'équipement reste la propriété d'IDEAL TV et doit être retourné à la résiliation du service."
+        },
+        {
+          "heading": "Support Client",
+          "content": "Le support technique et le service client sont disponibles via nos canaux de support dédiés. Les coordonnées et les heures de support sont fournies dans votre documentation d'abonnement et sur notre site web."
+        },
+        {
+          "heading": "Modifications du Service",
+          "content": "IDEAL TV se réserve le droit de modifier les gammes de chaînes, les fonctionnalités du service et les tarifs avec un préavis aux abonnés comme requis par la loi. Vous serez informé de tout changement significatif pouvant affecter votre service."
+        }
+      ]
+    }
+  }
+}

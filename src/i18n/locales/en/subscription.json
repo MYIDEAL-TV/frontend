@@ -1,0 +1,356 @@
+{
+  "title": "New Subscription",
+  "steps": {
+    "location": {
+      "title": "Location",
+      "description": "Service location",
+      "instruction": "Choose the location and type of contract below"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "description": "Plan selection"
+    },
+    "hardwareFees": {
+      "title": "Hardware & Fees",
+      "description": "Services and equipment"
+    },
+    "demographics": {
+      "title": "Demographics",
+      "description": "Personal information"
+    },
+    "signature": {
+      "title": "Signature",
+      "description": "Contract completion"
+    }
+  },
+  "progress": {
+    "step": "Step {{current}} of {{total}}",
+    "loadingStaff": "Loading staff profile..."
+  },
+  "validation": {
+    "locationRequired": {
+      "title": "Location Required",
+      "description": "Please select a service location to continue."
+    },
+    "planRequired": {
+      "title": "Plan Selection Required",
+      "description": "Please select a subscription plan to continue."
+    },
+    "invalidPlan": {
+      "title": "Invalid Plan Selection",
+      "description": "The selected plan is not available for {{location}}."
+    },
+    "invalidAddons": {
+      "title": "Invalid Add-on Selection",
+      "description": "Some selected add-ons are not available for {{location}}."
+    },
+    "priceRequired": {
+      "title": "Price Required",
+      "description": "Please enter a price for the custom item."
+    },
+    "itemNameRequired": {
+      "title": "Item Name Required",
+      "description": "Please enter a name for the custom item."
+    },
+    "requiredInfo": {
+      "title": "Required Information Missing",
+      "description": "Please complete all required fields for the owner/tenant."
+    },
+    "financialManagerRequired": {
+      "title": "Required Information Missing",
+      "description": "Please provide all required Financial Manager information for professional contracts."
+    },
+    "staffRequired": {
+      "title": "Staff Profile Required",
+      "description": "Unable to create subscription. Please contact administrator."
+    }
+  },
+  "techServices": {
+    "title": "Tech Services (Optional)",
+    "description": "Select technical services and associated costs",
+    "connectionFee": "Connection Fee",
+    "installFee": "Install Fee",
+    "addNote": "Add any notes or special instructions..."
+  },
+  "hardware": {
+    "title": "Hardware (Optional)",
+    "description": "Select hardware items and associated costs",
+    "instruction": "In this section pick the optional hardware and other services to be paid at inception",
+    "decoder": "Decoder",
+    "rentalSelected": "(Rental selected in previous step)",
+    "satelliteDish": "Satellite Dish",
+    "other": "Other",
+    "other2": "Other Equipment #2",
+    "otherDescription": "Hardware description",
+    "addNote": "Add any notes or special instructions..."
+  },
+  "additionalInfo": {
+    "title": "Additional Information (Optional)",
+    "description": "Any other information to include in the contract",
+    "label": "Other Information",
+    "itemDescription": "Additional Item",
+    "itemDescriptionPlaceholder": "Enter additional item description",
+    "itemCost": "Additional Item Cost",
+    "placeholder": "Enter any additional information here...",
+    "note": "This information will be included in the contract documentation."
+  },
+  "legalPackage": {
+    "title": "Please include the legal package",
+    "description": "Add comprehensive legal terms and conditions specific to your location and contract type"
+  },
+  "sepaMandate": {
+    "title": "Add SEPA Mandate",
+    "description": "Include a SEPA direct debit mandate with the contract"
+  },
+  "paymentAuthorization": {
+    "title": "Payment Authorization",
+    "none": "No additional payment authorization",
+    "sepa": "Add SEPA Mandate",
+    "ccAuth": "Add Credit Card Authorization",
+    "ccAuthDescription": "Include a Credit Card Authorization form with the contract"
+  },
+  "sepaStep": {
+    "title": "SEPA Mandate",
+    "description": "Direct debit information",
+    "fields": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "companyName": "Company Name",
+      "address": "Address",
+      "iban": "IBAN CODE",
+      "bic": "BIC CODE",
+      "paymentRecurrent": "Recurring Payment",
+      "paymentPonctuel": "One-time Payment",
+      "rum": "Unique Mandate Reference (UMR)",
+      "contractReference": "Account Holder Contract Reference"
+    },
+    "validation": {
+      "ibanRequired": "IBAN code is required",
+      "bicRequired": "BIC code is required"
+    }
+  },
+  "signatureConfirmation": {
+    "title": "Confirm the agreement signature"
+  },
+  "hardwareFields": {
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "totalCost": "Total Cost"
+  },
+  "signatureOptions": {
+    "title": "Contract Signature",
+    "description": "Choose how you would like to complete the contract signature process.",
+    "inPerson": {
+      "title": "In-Person Signature",
+      "description": "Complete the signature process immediately with a digital signature pad or touch screen.",
+      "button": "Sign Now"
+    },
+    "sendContract": {
+      "title": "Send Contract",
+      "description": "Send the contract via email using PDFFiller for remote signature completion.",
+      "button": "Send Contract"
+    },
+    "secureRemote": {
+      "title": "Secure Remote Signature",
+      "description": "Send contract via secure email link for remote signing with verification.",
+      "button": "Send with 2FA"
+    },
+    "approverFlow": {
+      "title": "eSign with Approver",
+      "description": "Internal approver reviews contract before sending to customer for signature",
+      "button": "Review & Approve",
+      "confirmDialog": {
+        "title": "Confirm Sender Details",
+        "description": "Review and update your sender information before initiating the approval workflow. This information will be used as the document sender and internal approver.",
+        "senderName": "Sender Name",
+        "senderEmail": "Sender Email",
+        "namePlaceholder": "Enter your full name",
+        "emailPlaceholder": "Enter your email",
+        "note": "Note",
+        "noteText": "You will review the contract via embedded signing before it's sent to the customer.",
+        "confirm": "Confirm & Continue"
+      }
+    }
+  },
+  "navigation": {
+    "startNew": "Start New Subscription"
+  },
+  "planSelection": {
+    "title": "Subscription Plans",
+    "description": "Choose your preferred plan and add optional packages to customize your subscription.",
+    "instruction": "In this section you choose the Services that will be billed on a monthly basis",
+    "choosePlan": "Choose Your Plan",
+    "serviceLocation": "Service Location",
+    "quantity": {
+      "label": "Quantity"
+    },
+    "contractDetails": {
+      "title": "Subscription Contract Details",
+      "description": "Define the contract type and duration",
+      "type": "Contract Type",
+      "individual": "Individual",
+      "professional": "Professional",
+      "hotel": "Hotel",
+      "months": "{{count}} months",
+      "duration": "Contract Duration"
+    },
+    "totalScreens": {
+      "title": "Total Screens & Plan Quantity",
+      "description": "Enter the total number of screens needed",
+      "label": "Total Screens Needed",
+      "breakdown": "Plan Quantity Breakdown",
+      "basePlans": "Base Plans",
+      "baseScreens": "Base Screens",
+      "additionalScreens": "Additional Screens",
+      "totalScreensLabel": "Total Screens",
+      "additionalCost": "Additional screens cost: {{cost}}/month",
+      "notAvailable": "Additional screens are not available for {{location}}"
+    },
+    "plans": {
+      "basic_us": {
+        "name": "MY SXM",
+        "price": "$29/month",
+        "description": "Perfect for essential services and basic needs",
+        "features": []
+      },
+      "basic_fr": {
+        "name": "MY SXM",
+        "price": "29€/mois",
+        "description": "Idéal pour un bouquet d'entrée de gamme diversifié",
+        "features": []
+      },
+      "full_us": {
+        "name": "ALL MY SXM",
+        "price": "$89/month",
+        "description": "Complete access with premium features and priority support",
+        "features": []
+      },
+      "full_fr": {
+        "name": "ALL MY SXM",
+        "price": "89€/mois",
+        "description": "Bouquet complet avec toutes les chaines non premium",
+        "features": []
+      },
+      "sbh": {
+        "name": "MY SBH",
+        "price": "89€/mois",
+        "description": "Bouquet complet avec toutes les chaines non premium",
+        "features": []
+      }
+    },
+    "addons": {
+      "title": "Optional Add-ons",
+      "alreadyIncluded": "Already included in plan",
+      "notAvailable": "No add-ons are available for {{location}}.",
+      "family_us": { "name": "Option FAMILY+" },
+      "sport_us": { "name": "Option SPORT+" },
+      "cinema_us": { "name": "Option CINEMA+" },
+      "kids_us": { "name": "Option KIDS+" },
+      "cine_us": { "name": "Option CINE+" },
+      "family_fr": { "name": "Option FAMILY+" },
+      "sport_fr": { "name": "Option SPORT+" },
+      "cinema_fr": { "name": "Option CINEMA+" },
+      "kids_fr": { "name": "Option KIDS+" }
+    },
+    "additionalScreens": {
+      "title": "Additional Screens",
+      "description": "Screens to add to your base plan(s)",
+      "label": "Number of additional screens",
+      "additionalCost": "Additional cost: {{cost}}/month",
+      "notAvailable": "Additional screens are not available for {{location}}."
+    },
+    "customItem": {
+      "title": "Custom Optional Item",
+      "description": "Add an optional item with custom pricing to the subscription",
+      "nameLabel": "Item Name",
+      "namePlaceholder": "Enter item name (e.g., VIP Channel Package)",
+      "priceLabel": "Item Price",
+      "pricePlaceholder": "0.00",
+      "note": "This item will be added to the monthly subscription total."
+    },
+    "decoder": {
+      "title": "Decoder Options",
+      "description": "Choose how you want to acquire your decoders",
+      "rent": {
+        "title": "Rent Decoders",
+        "description": "Pay a monthly fee for decoder rental"
+      },
+      "buy": {
+        "title": "Buy Decoders",
+        "description": "One-time purchase of decoders"
+      },
+      "basePlan": "Base Plan:",
+      "additionalScreensLabel": "Additional Screens:",
+      "totalDecoders": "Total Decoders Needed:",
+      "decoderCount": "{{count}} decoder",
+      "decoderCount_plural": "{{count}} decoders",
+      "perDecoder": "per decoder",
+      "totalMonthly": "Total Monthly",
+      "totalOneTime": "Total One-time Payment",
+      "notAvailable": "Decoder purchase is not available for this location. Rental only."
+    },
+    "addNote": "Add any notes or special instructions...",
+    "addNoteScreens": "Add any notes or special instructions for additional screens...",
+    "perMonth": "month"
+  },
+  "location": {
+    "title": "Service Location",
+    "description": "Select the location where the subscription service will be provided.",
+    "label": "Location",
+    "placeholder": "Select a location",
+    "options": {
+      "saintBarthelemy": "SBH - Saint-Barthélemy",
+      "saintMartin": "SFG - Saint-Martin",
+      "sintMaarten": "SXM - Sint-Maarten",
+      "wtn": "exWTN",
+      "other": "Other"
+    }
+  },
+  "demographics": {
+    "title": "Personal Information",
+    "description": "Please provide the required personal information for all parties involved.",
+    "instruction": "Please indicate the information related to the relevant contacts",
+    "owner": "Owner or Tenant Information",
+    "manager": "Manager or Representative (Optional)",
+    "financialManager": "Financial Manager (Optional)",
+    "delivery": "Delivery Details for Your Equipment (Optional)",
+    "copyFromOwner": "Copy from owner",
+    "marketingConsent": "I wish to receive information and commercial offers related to other Ideal Group products and services via email",
+    "deliveryNote": "To be filled out if they are different from the billing details"
+  },
+  "signature": {
+    "title": "Contract Signature",
+    "description": "Choose how you would like to proceed with the contract signature.",
+    "inPerson": "In-Person Signature",
+    "inPersonDescription": "Complete the signature process in person at our office.",
+    "sendContract": "Send Contract",
+    "sendContractDescription": "Send the contract electronically for remote signature.",
+    "secureSignature": "Secure Remote Signature",
+    "secureSignatureDescription": "Send contract via email/SMS with two-factor authentication."
+  },
+  "customItem": {
+    "title": "Custom Item (Optional)",
+    "description": "Add a specific item with an associated cost to this subscription",
+    "itemName": "Item Name",
+    "monthlyDiscount": "Monthly Discount",
+    "itemNamePlaceholder": "e.g., Installation fee, Special equipment, Discount, etc.",
+    "itemNameDescription": "Enter a descriptive name for the custom item",
+    "amount": "Amount",
+    "amountUSD": "Amount ($)",
+    "amountEUR": "Montant (€)",
+    "price": "Price",
+    "pricePlaceholder": "0.00",
+    "priceDescription": "Optional amount associated with this item",
+    "customItemLabel": "Custom Item",
+    "nameLabel": "Item Name",
+    "namePlaceholder": "Enter item name (e.g., VIP Channel Package)",
+    "priceLabel": "Item Price",
+    "autoSuggestedDiscountHint": "This discount is auto-suggested based on your screen configuration. You can modify it.",
+    "discountApplied": "Discount of {{amount}} applied"
+  },
+  "planQuantity": {
+    "label": "Number of Plans",
+    "autoCalculated": "Auto-calculated",
+    "autoCalculatedHint": "This is automatically calculated based on total screens"
+  }
+}
